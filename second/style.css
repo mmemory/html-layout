@@ -1,0 +1,43 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.bar {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+
+.bar-blue {
+    background-color: #498BD9;
+
+}
+
+.bar-green {
+    background-color: #4ED9BB;
+
+}
+
+.bar-otherGreen {
+    background-color: #B1DF82;
+    position: relative;
+}
+
+.bar-red {
+    background-color: #C80A1C;
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.bar-red h1 {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 100px;
+}
